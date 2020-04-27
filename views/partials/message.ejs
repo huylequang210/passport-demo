@@ -1,0 +1,22 @@
+<% if(typeof errors != 'undefined') { %>
+  <% errors.forEach(function(error) { %>
+  <div class="register-error">
+    <p class="register-display"> <%= error.msg %> </p>
+    <button class="dismiss-button">&times;</button>
+  </div>
+  <% }); %>
+<% } %>
+
+<% if(success_msg != '') {%>
+  <div class="login-success">
+    <p class="login-display"> <%= success_msg %> </p>
+    <button class="dismiss-button">&times;</button>
+  </div>
+<% } %>
+
+<% if(error != '') {%>
+  <div class="login-error">
+    <p class="login-display"> <%= error %> </p>
+    <button class="dismiss-button">&times;</button>
+  </div>
+<% } %>

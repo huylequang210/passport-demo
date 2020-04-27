@@ -1,0 +1,52 @@
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-describe {
+
+}
+
+.register, .login {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.register .form-group, 
+.login .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.register .form-group .form-control,
+.login .form-group .form-control {
+  padding: 6px 8px;
+}
+
+.register label,
+.login label {
+  margin-top: 10px;
+}
+
+.register button[type=submit],
+.login button[type=submit] {
+  margin: 15px 0;
+}
+
+.dismiss-button {
+
+}
+
+.register-display,
+.login-display {
+  display: inline-block;
+}
